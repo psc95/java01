@@ -6,7 +6,7 @@ class Member01{
 	int age;
 }//Member01 class
 
-class Thing{
+class Thing99{
 	int x;
 }//Thing class
 
@@ -32,7 +32,7 @@ public class Test01 {
 		System.out.println("======================================");
 		System.out.println("이름 : "+ b.name+", 나이 : "+ b.age);
 		System.out.println("======================================");
-		Thing thing = new Thing();//thing객체생성
+		Thing99 thing = new Thing99();//thing객체생성
 		thing.x=10;
 		System.out.println(thing.x);
 	}
